@@ -1,15 +1,27 @@
-body {
-  background: #ffffff;
-}
-
-h2 {
-  color: #a0d468
+h1, h2 {
+  color: #5eb954;
 }
 
 .profile {
   background: #ffffff;
   width: 450px;
-  padding: 10px;
-  border: 1px solid #a0d468
+  padding: 15px;
+  border: 1px solid #a0d468;
+  border-radius: 10px;
+}
 
+.triangle {
+  margin: auto;
+  max-width: 500px;
+  height: 600px;
+
+  background: linear-gradient(315deg,
+                              #a0d468,
+                              #a0d468 400px,
+                              #ffffff 0,
+                              #ffffff 300px);
+}
+
+body {
+  background: white;
 }
