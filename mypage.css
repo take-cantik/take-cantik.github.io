@@ -5,7 +5,7 @@ h1, h2 {
 .profile {
   background: #ffffff;
   position:relative; left: 20px;
-  width: 330px;
+  width: 500px;
   padding: 15px;
   border: 1px solid #a0d468;
   border-radius: 10px;
@@ -13,12 +13,27 @@ h1, h2 {
 
 .triangle {
   margin: auto;
-  max-width: 500px;
-  height: 600px;
+  max-width: 650px;
+  height: 700px;
 
   background: linear-gradient(315deg,
                               #a0d468,
                               #a0d468 400px,
                               #ffffff 0,
                               #ffffff 300px);
+}
+
+.top {
+  margin-right: 50px;
+  float: right;
+}
+
+img.twitter {
+  width: 50px;
+  height: 50px;
+}
+
+img.insta {
+  width: 50px;
+  height: 50px;
 }
