@@ -12,9 +12,10 @@ h1, h2 {
 }
 
 .triangle {
+  position:relative;
   margin: auto;
   max-width: 650px;
-  height: 700px;
+  height: 650px;
 
   background: linear-gradient(315deg,
                               #a0d468,
@@ -24,8 +25,9 @@ h1, h2 {
 }
 
 .top {
-  margin-right: 50px;
-  float: right;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
 }
 
 img.twitter {
